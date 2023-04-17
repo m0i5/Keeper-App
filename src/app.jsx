@@ -5,7 +5,8 @@ import Note from "./Note";
 
 export default function App() {
     return(
-        <div>
+        <div className="*">
+
             <Heading />           
             <Note />
             <Footer />
@@ -13,3 +14,5 @@ export default function App() {
         </div>
     )
 }
+
+

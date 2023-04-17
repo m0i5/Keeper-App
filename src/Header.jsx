@@ -1,3 +1,7 @@
 export default function Heading() {
-    return <h1> Keeper App </h1>
+    return <header>
+    <h1> Keeper App </h1>
+    </header>
+
+
 }

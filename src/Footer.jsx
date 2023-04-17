@@ -3,5 +3,9 @@ const currentYear = date.getFullYear();
 
 
 export default function Footer() {
-    return <p className="footer"> Copyright {currentYear} </p>
+    return <footer className="footer">
+    <p className="footer.p"> Copyright © {currentYear} </p>
+    </footer>
 }
+
+
